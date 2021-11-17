@@ -41,10 +41,10 @@ struct TopMoviePreview: View {
                                     .foregroundColor(.blue)
                                     .font(.system(size: 3))
                             }
-                         
+                            
                         }
                     }
-                   
+                    
                 }
                 HStack {
                     Spacer()
@@ -52,7 +52,11 @@ struct TopMoviePreview: View {
                         // action
                     }
                     Spacer()
-                    Text("Play Button")
+                    WhiteButton(text: "Play", imageName: "play.fill") {
+                        // action
+                    }
+                    .frame(width: 120)
+                    
                     Spacer()
                     SmallVerticalButton(text: "Info", isOnImage: "info.circle", isOffImage: "info.circle", isOn: true) {
                         // action
@@ -60,6 +64,10 @@ struct TopMoviePreview: View {
                     Spacer()
                 }
             }
+            .background(
+                LinearGradient.blackOpacityGradient
+                    .padding(.top, 250)
+            )
         }
         .foregroundColor(.white)
     }

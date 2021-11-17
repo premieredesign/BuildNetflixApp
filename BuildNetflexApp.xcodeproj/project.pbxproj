@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA01D9AC2744D7AF0037AD18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AB2744D7AF0037AD18 /* HomeView.swift */; };
+		CA01D9AD2744D7AF0037AD18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AB2744D7AF0037AD18 /* HomeView.swift */; };
 		CA4B02A42741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
 		CA4B02A52741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
 		CA4B02A727434ADE00146169 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* WhiteButton.swift */; };
@@ -17,8 +19,6 @@
 		CAE0AC5F273F749F00EC8A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC4A273F749C00EC8A5E /* ContentView.swift */; };
 		CAE0AC60273F749F00EC8A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE0AC4B273F749F00EC8A5E /* Assets.xcassets */; };
 		CAE0AC61273F749F00EC8A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE0AC4B273F749F00EC8A5E /* Assets.xcassets */; };
-		CAE0AC6E273F766B00EC8A5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC6D273F766B00EC8A5E /* HomeView.swift */; };
-		CAE0AC6F273F766B00EC8A5E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC6D273F766B00EC8A5E /* HomeView.swift */; };
 		CAE0AC72273F776E00EC8A5E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CAE0AC71273F776E00EC8A5E /* Kingfisher */; };
 		CAE0AC74273F794E00EC8A5E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC73273F794E00EC8A5E /* Movie.swift */; };
 		CAE0AC75273F794E00EC8A5E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC73273F794E00EC8A5E /* Movie.swift */; };
@@ -33,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA01D9AB2744D7AF0037AD18 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		CA4B02A627434ADE00146169 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		CAE0AC49273F749C00EC8A5E /* BuildNetflexAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflexAppApp.swift; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		CAE0AC58273F749F00EC8A5E /* BuildNetflexApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildNetflexApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE0AC5A273F749F00EC8A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE0AC5B273F749F00EC8A5E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		CAE0AC6D273F766B00EC8A5E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Shared/HomeView.swift; sourceTree = SOURCE_ROOT; };
 		CAE0AC73273F794E00EC8A5E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CAE0AC76273F7A8500EC8A5E /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		CAE0AC79273F7AEF00EC8A5E /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
@@ -70,6 +70,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA4B02A92744D63E00146169 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0AC7C273F7D1500EC8A5E /* HomeVM.swift */,
+				CA01D9AB2744D7AF0037AD18 /* HomeView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		CA4B02AA2744D65A00146169 /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0AC76273F7A8500EC8A5E /* StandardHomeMovie.swift */,
+				CAE0AC7F2741BB1400EC8A5E /* TopMoviePreview.swift */,
+				CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */,
+				CA4B02A627434ADE00146169 /* WhiteButton.swift */,
+			);
+			path = HelperViews;
+			sourceTree = "<group>";
+		};
+		CA4B02AB2744D69000146169 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0AC73273F794E00EC8A5E /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA4B02AC2744D69D00146169 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0AC79273F7AEF00EC8A5E /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		CAE0AC43273F749C00EC8A5E = {
 			isa = PBXGroup;
 			children = (
@@ -102,15 +138,11 @@
 		CAE0AC52273F749F00EC8A5E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CAE0AC6D273F766B00EC8A5E /* HomeView.swift */,
-				CAE0AC7C273F7D1500EC8A5E /* HomeVM.swift */,
-				CAE0AC73273F794E00EC8A5E /* Movie.swift */,
-				CAE0AC76273F7A8500EC8A5E /* StandardHomeMovie.swift */,
-				CAE0AC79273F7AEF00EC8A5E /* GlobalHelpers.swift */,
+				CA4B02AC2744D69D00146169 /* Helpers */,
+				CA4B02AB2744D69000146169 /* Model */,
+				CA4B02AA2744D65A00146169 /* HelperViews */,
+				CA4B02A92744D63E00146169 /* HomeViews */,
 				CAE0AC53273F749F00EC8A5E /* Info.plist */,
-				CAE0AC7F2741BB1400EC8A5E /* TopMoviePreview.swift */,
-				CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */,
-				CA4B02A627434ADE00146169 /* WhiteButton.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -228,9 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE0AC7A273F7AEF00EC8A5E /* GlobalHelpers.swift in Sources */,
-				CAE0AC6E273F766B00EC8A5E /* HomeView.swift in Sources */,
 				CAE0AC7D273F7D1500EC8A5E /* HomeVM.swift in Sources */,
 				CAE0AC5E273F749F00EC8A5E /* ContentView.swift in Sources */,
+				CA01D9AC2744D7AF0037AD18 /* HomeView.swift in Sources */,
 				CAE0AC77273F7A8500EC8A5E /* StandardHomeMovie.swift in Sources */,
 				CAE0AC802741BB1400EC8A5E /* TopMoviePreview.swift in Sources */,
 				CAE0AC74273F794E00EC8A5E /* Movie.swift in Sources */,
@@ -245,9 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE0AC7B273F7AEF00EC8A5E /* GlobalHelpers.swift in Sources */,
-				CAE0AC6F273F766B00EC8A5E /* HomeView.swift in Sources */,
 				CAE0AC7E273F7D1500EC8A5E /* HomeVM.swift in Sources */,
 				CAE0AC5F273F749F00EC8A5E /* ContentView.swift in Sources */,
+				CA01D9AD2744D7AF0037AD18 /* HomeView.swift in Sources */,
 				CAE0AC78273F7A8500EC8A5E /* StandardHomeMovie.swift in Sources */,
 				CAE0AC812741BB1400EC8A5E /* TopMoviePreview.swift in Sources */,
 				CAE0AC75273F794E00EC8A5E /* Movie.swift in Sources */,

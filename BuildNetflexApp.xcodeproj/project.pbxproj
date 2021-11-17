@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CA01D9AC2744D7AF0037AD18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AB2744D7AF0037AD18 /* HomeView.swift */; };
 		CA01D9AD2744D7AF0037AD18 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AB2744D7AF0037AD18 /* HomeView.swift */; };
+		CA01D9AF2744DA910037AD18 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AE2744DA910037AD18 /* MovieDetails.swift */; };
+		CA01D9B02744DA910037AD18 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AE2744DA910037AD18 /* MovieDetails.swift */; };
 		CA4B02A42741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
 		CA4B02A52741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
 		CA4B02A727434ADE00146169 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* WhiteButton.swift */; };
@@ -34,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		CA01D9AB2744D7AF0037AD18 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CA01D9AE2744DA910037AD18 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		CA4B02A627434ADE00146169 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		CAE0AC49273F749C00EC8A5E /* BuildNetflexAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflexAppApp.swift; sourceTree = "<group>"; };
@@ -143,6 +146,7 @@
 				CA4B02AA2744D65A00146169 /* HelperViews */,
 				CA4B02A92744D63E00146169 /* HomeViews */,
 				CAE0AC53273F749F00EC8A5E /* Info.plist */,
+				CA01D9AE2744DA910037AD18 /* MovieDetails.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -264,6 +268,7 @@
 				CAE0AC5E273F749F00EC8A5E /* ContentView.swift in Sources */,
 				CA01D9AC2744D7AF0037AD18 /* HomeView.swift in Sources */,
 				CAE0AC77273F7A8500EC8A5E /* StandardHomeMovie.swift in Sources */,
+				CA01D9AF2744DA910037AD18 /* MovieDetails.swift in Sources */,
 				CAE0AC802741BB1400EC8A5E /* TopMoviePreview.swift in Sources */,
 				CAE0AC74273F794E00EC8A5E /* Movie.swift in Sources */,
 				CAE0AC5C273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */,
@@ -281,6 +286,7 @@
 				CAE0AC5F273F749F00EC8A5E /* ContentView.swift in Sources */,
 				CA01D9AD2744D7AF0037AD18 /* HomeView.swift in Sources */,
 				CAE0AC78273F7A8500EC8A5E /* StandardHomeMovie.swift in Sources */,
+				CA01D9B02744DA910037AD18 /* MovieDetails.swift in Sources */,
 				CAE0AC812741BB1400EC8A5E /* TopMoviePreview.swift in Sources */,
 				CAE0AC75273F794E00EC8A5E /* Movie.swift in Sources */,
 				CAE0AC5D273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */,

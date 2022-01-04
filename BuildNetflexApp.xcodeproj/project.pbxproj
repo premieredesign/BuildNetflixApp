@@ -13,8 +13,12 @@
 		CA01D9B02744DA910037AD18 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01D9AE2744DA910037AD18 /* MovieDetails.swift */; };
 		CA4B02A42741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
 		CA4B02A52741D5BA00146169 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */; };
-		CA4B02A727434ADE00146169 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* WhiteButton.swift */; };
-		CA4B02A827434ADE00146169 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* WhiteButton.swift */; };
+		CA4B02A727434ADE00146169 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* PlayButton.swift */; };
+		CA4B02A827434ADE00146169 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4B02A627434ADE00146169 /* PlayButton.swift */; };
+		CAA134562784BB5E001CEB84 /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA134552784BB5E001CEB84 /* MoreLikeThis.swift */; };
+		CAAC8D73277EEB1D002BC37E /* CustomTabSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAC8D72277EEB1D002BC37E /* CustomTabSwitcher.swift */; };
+		CABC233F276564F900B79AC7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC233E276564F900B79AC7 /* Episode.swift */; };
+		CABC2340276564F900B79AC7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABC233E276564F900B79AC7 /* Episode.swift */; };
 		CAE0AC5C273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC49273F749C00EC8A5E /* BuildNetflexAppApp.swift */; };
 		CAE0AC5D273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC49273F749C00EC8A5E /* BuildNetflexAppApp.swift */; };
 		CAE0AC5E273F749F00EC8A5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0AC4A273F749C00EC8A5E /* ContentView.swift */; };
@@ -38,7 +42,10 @@
 		CA01D9AB2744D7AF0037AD18 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CA01D9AE2744DA910037AD18 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
-		CA4B02A627434ADE00146169 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
+		CA4B02A627434ADE00146169 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
+		CAA134552784BB5E001CEB84 /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
+		CAAC8D72277EEB1D002BC37E /* CustomTabSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabSwitcher.swift; sourceTree = "<group>"; };
+		CABC233E276564F900B79AC7 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		CAE0AC49273F749C00EC8A5E /* BuildNetflexAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildNetflexAppApp.swift; sourceTree = "<group>"; };
 		CAE0AC4A273F749C00EC8A5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAE0AC4B273F749F00EC8A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +95,7 @@
 				CAE0AC76273F7A8500EC8A5E /* StandardHomeMovie.swift */,
 				CAE0AC7F2741BB1400EC8A5E /* TopMoviePreview.swift */,
 				CA4B02A32741D5BA00146169 /* SmallVerticalButton.swift */,
-				CA4B02A627434ADE00146169 /* WhiteButton.swift */,
+				CA4B02A627434ADE00146169 /* PlayButton.swift */,
 			);
 			path = HelperViews;
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CAE0AC73273F794E00EC8A5E /* Movie.swift */,
+				CABC233E276564F900B79AC7 /* Episode.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +155,8 @@
 				CA4B02A92744D63E00146169 /* HomeViews */,
 				CAE0AC53273F749F00EC8A5E /* Info.plist */,
 				CA01D9AE2744DA910037AD18 /* MovieDetails.swift */,
+				CAAC8D72277EEB1D002BC37E /* CustomTabSwitcher.swift */,
+				CAA134552784BB5E001CEB84 /* MoreLikeThis.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -264,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE0AC7A273F7AEF00EC8A5E /* GlobalHelpers.swift in Sources */,
+				CABC233F276564F900B79AC7 /* Episode.swift in Sources */,
 				CAE0AC7D273F7D1500EC8A5E /* HomeVM.swift in Sources */,
 				CAE0AC5E273F749F00EC8A5E /* ContentView.swift in Sources */,
 				CA01D9AC2744D7AF0037AD18 /* HomeView.swift in Sources */,
@@ -271,9 +282,11 @@
 				CA01D9AF2744DA910037AD18 /* MovieDetails.swift in Sources */,
 				CAE0AC802741BB1400EC8A5E /* TopMoviePreview.swift in Sources */,
 				CAE0AC74273F794E00EC8A5E /* Movie.swift in Sources */,
+				CAA134562784BB5E001CEB84 /* MoreLikeThis.swift in Sources */,
+				CAAC8D73277EEB1D002BC37E /* CustomTabSwitcher.swift in Sources */,
 				CAE0AC5C273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */,
 				CA4B02A42741D5BA00146169 /* SmallVerticalButton.swift in Sources */,
-				CA4B02A727434ADE00146169 /* WhiteButton.swift in Sources */,
+				CA4B02A727434ADE00146169 /* PlayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE0AC7B273F7AEF00EC8A5E /* GlobalHelpers.swift in Sources */,
+				CABC2340276564F900B79AC7 /* Episode.swift in Sources */,
 				CAE0AC7E273F7D1500EC8A5E /* HomeVM.swift in Sources */,
 				CAE0AC5F273F749F00EC8A5E /* ContentView.swift in Sources */,
 				CA01D9AD2744D7AF0037AD18 /* HomeView.swift in Sources */,
@@ -291,7 +305,7 @@
 				CAE0AC75273F794E00EC8A5E /* Movie.swift in Sources */,
 				CAE0AC5D273F749F00EC8A5E /* BuildNetflexAppApp.swift in Sources */,
 				CA4B02A52741D5BA00146169 /* SmallVerticalButton.swift in Sources */,
-				CA4B02A827434ADE00146169 /* WhiteButton.swift in Sources */,
+				CA4B02A827434ADE00146169 /* PlayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,7 @@ struct HomeView: View {
                         .frame(width: screen.width)
                         .padding(.top, -110)
                         .zIndex(-1)
+                    
                     ForEach(vm.allCategories, id: \.self) {category in
                         VStack {
                             HStack {
